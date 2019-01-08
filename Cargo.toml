@@ -1,0 +1,17 @@
+[package]
+name = "dir_lines_streamer"
+description = "Read files inside a directory line-by-line, one file after the other (in human-alphabetical order)"
+version = "0.1.0"
+authors = ["Nicolas Bigaouette <nbigaouette@elementai.com>"]
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/ElementAI/dir_lines_streamer"
+repository = "https://github.com/ElementAI/dir_lines_streamer"
+readme = "README.md"
+keywords = ["iterator", "directory", "file", "filesystem"]
+categories = ["filesystem"]
+edition = "2018"
+
+[dependencies]
+alphanumeric-sort = "1.0"
+failure = "0.1"
+log = "0.4"
